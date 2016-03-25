@@ -1,4 +1,4 @@
-# Invoke Handler
+# Invoke Handler [![Circle CI](https://circleci.com/gh/chrisinajar/invoke-handler.svg?style=svg)](https://circleci.com/gh/chrisinajar/invoke-handler)
 Manually invoke a dom-delegator handler, dominantly for use in test cases.
 
 
