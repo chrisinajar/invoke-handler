@@ -1,0 +1,37 @@
+{
+  "name": "invoke-handler",
+  "version": "0.0.0",
+  "description": "Manually invoke a dom-delegator handler, dominantly for use in test cases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape ./test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisinajar/invoke-handler.git"
+  },
+  "keywords": [
+    "dom-delegator",
+    "test",
+    "virtual-dom",
+    "mercury"
+  ],
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/invoke-handler/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/invoke-handler#readme",
+  "devDependencies": {
+    "dom-delegator": "^13.1.0",
+    "semistandard": "^7.0.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1",
+    "value-event": "^5.1.0"
+  },
+  "dependencies": {
+    "dispatch-event": "^1.0.0",
+    "ev-store": "^7.0.0",
+    "global": "^4.3.0"
+  }
+}
