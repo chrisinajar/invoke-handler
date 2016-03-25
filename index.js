@@ -11,4 +11,5 @@ function invokeHandler (handler, ev, data) {
   EvStore(div).event = handler;
 
   dispatchEvent(div, ev || 'click', data);
+  document.body.removeChild(div);
 }
